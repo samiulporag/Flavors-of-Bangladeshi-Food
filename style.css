@@ -12,9 +12,9 @@ p{
 .coral-color{
     color: coral;
 }
-section{
+.easy-move{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 5px;
 }
 .partition{
     width: 90%;
@@ -25,10 +25,17 @@ section{
 }
 .deshi-button{
     text-decoration: none;
-    background-image: linear-gradient(salmon tomato);
+    background-image: linear-gradient(rgb(114, 250, 209), rgb(52, 97, 243));
     padding: 10px 40px;
-    color: black;
-    border-radius: 5px;
+    color: white;
+    border-radius: 20px;
+}
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, orange);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
 }
 .top-banner{
     background-image: url(images/Frame\ 57.jpg);
@@ -40,5 +47,53 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     padding-right: 40px;
-
+}
+.flex-container{
+    display: flex;
+}
+.salmon-color{
+    color: rgb(139, 122, 233);
+}
+.favorite-item{
+    width: 30%;
+    margin : 40px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+.third-section{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}  
+footer{
+    height: 200px;
+    background-color: gray;
+    padding-top: 50px;
+}
+.blue-color{
+    color:midnightblue;
+}
+.favorite-item img{
+    width: 100%;
+}
+.darkcyan-color{
+    color: darkcyan;
+}
+.first{
+    height: 100px;
+    background-color: rgb(90, 224, 224);
+}
+.last-container{
+    font-weight: 500;
+    display: flex;
+    width: 80%;
+    margin : 80px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+    padding: 20px 20px;
 }
