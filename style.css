@@ -3,27 +3,29 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 30px;
+    font-size: 50px;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
   }
 .coral-color{
     color: coral;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .partition{
     width: 90%;
-    padding-left: 40px;
+    padding-left: 2%;
 }
 .partition img{
     width: 80%;
 }
 .deshi-button{
     text-decoration: none;
-    background-image: linear-gradient(blue);
+    background-image: linear-gradient(salmon tomato);
     padding: 10px 40px;
     color: black;
     border-radius: 5px;
@@ -31,5 +33,12 @@ section{
 .top-banner{
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    
+    background-size: cover; 
+}
+.my-passion{
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 40px;
+
 }
